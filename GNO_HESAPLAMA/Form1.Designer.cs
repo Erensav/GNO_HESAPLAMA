@@ -64,12 +64,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(346, 391);
+            this.button1.BackColor = System.Drawing.SystemColors.Info;
+            this.button1.Location = new System.Drawing.Point(239, 386);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 36);
+            this.button1.Size = new System.Drawing.Size(245, 52);
             this.button1.TabIndex = 0;
             this.button1.Text = "Hesapla";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
@@ -155,6 +156,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
             this.textBox1.Location = new System.Drawing.Point(106, 55);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
@@ -162,6 +164,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.Window;
             this.textBox2.Location = new System.Drawing.Point(106, 104);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 22);
@@ -197,6 +200,7 @@
             // 
             // textBox7
             // 
+            this.textBox7.BackColor = System.Drawing.SystemColors.Window;
             this.textBox7.Location = new System.Drawing.Point(239, 55);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 22);
@@ -282,20 +286,21 @@
             // 
             // listBox1
             // 
+            this.listBox1.BackColor = System.Drawing.SystemColors.MenuBar;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(543, 145);
+            this.listBox1.Location = new System.Drawing.Point(504, 145);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(245, 212);
+            this.listBox1.Size = new System.Drawing.Size(284, 260);
             this.listBox1.TabIndex = 28;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(601, 58);
+            this.pictureBox1.Location = new System.Drawing.Point(551, 36);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(146, 71);
+            this.pictureBox1.Size = new System.Drawing.Size(196, 93);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
