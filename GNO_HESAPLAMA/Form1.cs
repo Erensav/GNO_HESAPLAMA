@@ -95,5 +95,15 @@ namespace GNO_HESAPLAMA
             GenelNot = (GNO1 + GNO2 + GNO3 + GNO4 + GNO5 + GNO6) / topkr;
             listBox1.Items.Add($"Genel Not Ortalamasi:{GenelNot}");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
